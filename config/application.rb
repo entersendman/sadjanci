@@ -29,3 +29,16 @@ module Sadjanci
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+Rails.application.configure do
+    # Автозагрузка всех языковых файлов
+  config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
+
+  # Дефолтовый язык
+  config.i18n.default_locale = :ru
+
+ 
+  config.i18n.fallbacks = [:en]
+
+  
+  config.i18n.fallbacks = {'ru' => 'en'}
+end
