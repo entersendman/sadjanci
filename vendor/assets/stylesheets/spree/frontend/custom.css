@@ -1,0 +1,90 @@
+#spree-header {
+	background-color: #4a3100;
+	margin-bottom: 20px;
+	
+}
+#spree-header .nav a:hover {
+	background-color: #4a3100;
+}
+.btn-success {
+	background-color: #3A2B0E;
+	border-color: #fff;
+}
+.btn-success:hover {
+	background-color: #4a3100;
+	border-color: #fff;
+}
+.list-group-item {
+	border: 1px solid #4A3100;
+	color:#3A2B0E;
+}
+.pagination > .active > a {
+	background-color: #4a3100;
+	border-color: #4a3100;
+}
+.pagination > .active > a:hover {
+	background-color: #3A2B0E;
+	border-color: #4a3100;
+	color:#fff;
+}
+.pagination > li > a {
+	color:#3A2B0E;
+}
+.pagination > li > a:hover {
+	color:#3A2B0E;
+}
+.list-group-item.active {
+	background-color: #4a3100;
+	border-color:#4a3100;
+}
+.list-group-item.active:hover {
+	background-color: #4a3100;
+	border-color:#4a3100;
+}
+a.list-group-item:hover {
+	background-color: #f1e4cc;
+	border-color:#4a3100;
+	color:#3A2B0E;
+}
+a.list-group-item {
+	
+	color:#3A2B0E;
+}
+.btn-primary {
+	background-color: #4a3100;
+	border-color:#4a3100;
+}
+.btn-primary:hover {
+	background-color: #4a3100;
+	border-color:#4a3100;
+}
+
+.breadcrumb, .alert, .alert-info {
+	background-color:#f1e4cc; 
+	border-color: #f1e4cc; 
+	color: #3A2B0E;
+}
+a {
+  color: #3A2B0E;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: #3A2B0E;
+  text-decoration: none;
+}
+.btn-default {
+    color: #fff;
+    background-color: #4a3100;
+    border-color: #4a3100;
+}
+.btn-default:hover {
+    color: #fff;
+    background-color: #3A2B0E;
+    border-color: #3A2B0E;
+}
+.panel-footer {
+    
+    background-color: #f1e4cc;
+    border-top: 1px solid #ddd;
+    
+}
