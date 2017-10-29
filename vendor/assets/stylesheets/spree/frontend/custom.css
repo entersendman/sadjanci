@@ -88,3 +88,19 @@ a:hover, a:focus {
     border-top: 1px solid #ddd;
     
 }
+.btn-contact {
+	width: 100%;
+	color: #fff;
+    background-color: #4a3100;
+    border-color: #3A2B0E;
+    padding: 5px 0;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+.btn-contact:hover {
+    color: #fff;
+    background-color: #3A2B0E;
+    border-color: #3A2B0E;
+    border: 2px solid #fff;
+    padding: 5px 0;
+}
